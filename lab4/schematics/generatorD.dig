@@ -44,16 +44,6 @@
       <pos x="320" y="260"/>
     </visualElement>
     <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="500" y="200"/>
-    </visualElement>
-    <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
@@ -80,16 +70,6 @@
         </entry>
       </elementAttributes>
       <pos x="500" y="240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>XNOr</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="500" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -137,7 +117,7 @@
           <string>p</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="320"/>
+      <pos x="580" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -215,7 +195,36 @@
       </elementAttributes>
       <pos x="500" y="260"/>
     </visualElement>
+    <visualElement>
+      <elementName>OrD.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>generic</string>
+          <string>inputCount := 2;</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>XnorD.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>generic</string>
+          <string>inputCount := 2;</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="300"/>
+    </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="560" y="320"/>
+      <p2 x="580" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="220"/>
+      <p2 x="580" y="220"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>

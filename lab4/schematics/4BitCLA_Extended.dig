@@ -1128,14 +1128,14 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="2"/>
+          <rotation rotation="1"/>
         </entry>
         <entry>
           <string>Label</string>
-          <string>c_out</string>
+          <string>c1</string>
         </entry>
       </elementAttributes>
-      <pos x="-760" y="1120"/>
+      <pos x="60" y="1540"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1234,6 +1234,90 @@
         </entry>
       </elementAttributes>
       <pos x="500" y="1220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>c_1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>c_2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>c_3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-360" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>c2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>c3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-360" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>c_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-760" y="1120"/>
     </visualElement>
   </visualElements>
   <wires>
