@@ -524,7 +524,7 @@
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>26</string>
+          <string>13</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
@@ -740,7 +740,7 @@
       <p2 x="3040" y="220"/>
     </wire>
     <wire>
-      <p1 x="2980" y="220"/>
+      <p1 x="2340" y="220"/>
       <p2 x="3000" y="220"/>
     </wire>
     <wire>
@@ -861,6 +861,10 @@
     </wire>
     <wire>
       <p1 x="1860" y="-120"/>
+      <p2 x="2340" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="2340" y="-120"/>
       <p2 x="2700" y="-120"/>
     </wire>
     <wire>
@@ -1012,16 +1016,16 @@
       <p2 x="2980" y="20"/>
     </wire>
     <wire>
-      <p1 x="2980" y="220"/>
-      <p2 x="2980" y="240"/>
-    </wire>
-    <wire>
       <p1 x="2980" y="20"/>
-      <p2 x="2980" y="220"/>
+      <p2 x="2980" y="240"/>
     </wire>
     <wire>
       <p1 x="2660" y="260"/>
       <p2 x="2660" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="2340" y="-120"/>
+      <p2 x="2340" y="220"/>
     </wire>
     <wire>
       <p1 x="3240" y="280"/>
